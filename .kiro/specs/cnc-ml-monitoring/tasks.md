@@ -48,7 +48,9 @@
   - Write tests for schema validation and serialization
   - _Requirements: 2.3, 6.1_
 
-- [-] 4. Implement repository layer for data access
+- [x] 4. Implement repository layer for data access
+
+
 
 
 
@@ -70,7 +72,8 @@
   - Write comprehensive tests for machine repository operations
   - _Requirements: 1.3, 4.1, 4.4_
 
-- [-] 4.3 Implement auxiliary repositories (Operator, Job, Part)
+- [x] 4.3 Implement auxiliary repositories (Operator, Job, Part)
+
 
   - Create OperatorRepository with skill-based queries and performance metrics
   - Implement JobRepository with status filtering and performance tracking
@@ -78,15 +81,23 @@
   - Write unit tests for all repository operations and edge cases
   - _Requirements: 1.3, 4.2, 4.3_
 
-- [ ] 5. Create service layer for business logic
-- [ ] 5.1 Implement MachineService with core operations
+- [x] 5. Create service layer for business logic
+
+
+
+
+
+
+- [x] 5.1 Implement MachineService with core operations
+
   - Create machine management service with CRUD operations
   - Implement machine data aggregation and filtering logic
   - Add downtime analysis and OEE calculation methods
   - Write unit tests for machine service business logic
   - _Requirements: 4.1, 4.2, 4.4_
 
-- [ ] 5.2 Implement auxiliary services (Operator, Job, Part)
+- [x] 5.2 Implement auxiliary services (Operator, Job, Part)
+
   - Create OperatorService with performance analysis and skill management
   - Implement JobService with scheduling and progress tracking
   - Create PartService with production history and material analysis
