@@ -89,8 +89,12 @@ async def database_health_check():
         "timestamp": "2025-08-25T17:58:46Z"  # This would be dynamic in real implementation
     }
 
-# API routes will be added in subsequent tasks
-# app.include_router(machines.router, prefix="/api/v1", tags=["machines"])
+# Include API routes
+from app.api.routes import machines
+
+app.include_router(machines.router, prefix="/api/v1", tags=["machines"])
+
+# Additional routes will be added in subsequent tasks
 # app.include_router(operators.router, prefix="/api/v1", tags=["operators"])
 # app.include_router(jobs.router, prefix="/api/v1", tags=["jobs"])
 # app.include_router(parts.router, prefix="/api/v1", tags=["parts"])

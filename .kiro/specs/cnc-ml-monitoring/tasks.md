@@ -104,8 +104,18 @@
   - Write comprehensive tests for all service layer operations
   - _Requirements: 4.2, 4.3, 7.4_
 
-- [ ] 6. Implement basic API endpoints for machine management
-- [ ] 6.1 Create machine CRUD endpoints
+- [x] 6. Implement basic API endpoints for machine management
+
+
+
+
+
+
+
+
+- [x] 6.1 Create machine CRUD endpoints
+
+
   - Implement GET /api/v1/machines endpoint to list all machines
   - Create POST /api/v1/machines endpoint for machine creation
   - Add GET /api/v1/machines/{machine_id} endpoint for machine details
@@ -113,7 +123,9 @@
   - Write integration tests for all machine CRUD operations
   - _Requirements: 2.1, 2.2, 2.3, 5.1_
 
-- [ ] 6.2 Create machine data retrieval endpoints
+- [x] 6.2 Create machine data retrieval endpoints
+
+
   - Implement GET /api/v1/machines/{machine_id}/data endpoint with filtering
   - Create GET /api/v1/machines/{machine_id}/downtime endpoint for downtime analysis
   - Add GET /api/v1/machines/{machine_id}/oee endpoint for OEE metrics
